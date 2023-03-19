@@ -4,54 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Tea Cozy - Tea Shop</title>
 </head>
 <body>
-    <nav>
-        <img src="/assets/images/img-tea-cozy-logo.png" alt="Tea Cozy logo">
+    <!-- Need to make sticky -->
+    <nav class="">
+        <img src="assets/images/img-tea-cozy-logo.png" alt="Tea Cozy logo" class="mainLogo">
         <!-- LINK THE BELOW TO THE SPECIFIC SECTIONS ON THE PAGE -->
-        <p>Mission</p>
-        <p>Featured Tea</p>
-        <p>Location</p>
-        <p>Contact</p>
+        <div class="navOptions">
+            <p ><a href="#mission" class="navBtn">Mission</a></p>
+            <p><a href="#teaOfMonth" class="navBtn">Featured Tea</a></p>
+            <p><a href="#locations" class="navBtn">Location</a></p>
+            <p><a href="#contact" class="navBtn">Contact</a></p>
+        </div>
     </nav>
 
     <!-- Mission Section -->
-    <section class="missionDiv">
+    <section class="missionDiv" id="mission">
         <h2>Our Mission</h2>
         <h4>Handpicked, Artisanally Curated, Free Range, Sustainble, Small Batch, Fair Trade, Organic Tea</h4>
     </section>
 
     <!-- Tea of the Month Section  -->
-    <section class="teaOfMonthDiv">
+    <section class="teaOfMonthDiv" id="teaOfMonth">
         <h2>Tea of the Month</h2>
         <h4>What's Steeping at the Tea Cozy?</h4>
         <div class="currentOffers">
             <div>
-                <img src="/assets/images/img-berryblitz.jpeg" alt="Tea cup filled with berry blitz tea">
+                <img src="assets/images/img-berryblitz.jpeg" alt="Tea cup filled with berry blitz tea">
                 <h4>Fall Berry Blitz Tea</h4>
             </div>
             <div>
-                <img src="/assets/images/img-spiced-rum.jpeg" alt="Box of loose tea">
+                <img src="assets/images/img-spiced-rum.jpeg" alt="Box of loose tea">
                 <h4>Spiced Rum Tea</h4>
             </div>
             <div>
-                <img src="/assets/images/img-donut.jpeg" alt="Donut on a plate">
+                <img src="assets/images/img-donut.jpeg" alt="Donut on a plate">
                 <h4>Seasonal Donuts</h4>
             </div>
             <div>
-                <img src="/assets/images/img-myrtle-ave.jpeg" alt="Tea cup filled with myrtle ave tea">
+                <img src="assets/images/img-myrtle-ave.jpeg" alt="Tea cup filled with myrtle ave tea">
                 <h4>Myrtle Ave Tea</h4>
             </div>
             <div>
-                <img src="/assets/images/img-bedford-bizarre.jpeg" alt="Tea cup filled with bedford bizzare tea">
+                <img src="assets/images/img-bedford-bizarre.jpeg" alt="Tea cup filled with bedford bizzare tea">
                 <h4>Bedford Bizarre Tea</h4>
             </div>
         </div>
     </section>
 
     <!-- Locations Section -->
-    <section>
+    <section id="locations">
         <h2>Locations</h2>
         <div class="locationList">
             <div>
@@ -76,7 +80,7 @@
     </section>
 
     <!-- Contact Section -->
-    <section>
+    <section id="contact">
         <h2>The Tea Cozy</h2>
         <h5>contact@theteacozy.com</h5>
         <h5>917-555-8904</h5>

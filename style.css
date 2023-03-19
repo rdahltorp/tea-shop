@@ -1,0 +1,40 @@
+body {
+    color: seashell;
+    background-color: black;
+    font-family: Helvetica;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+}
+
+.mainLogo {
+    max-height: 50px;
+    margin-left: 10px;
+}
+
+.navOptions {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navBtn {
+    text-decoration: underline;
+    color: seashell;
+}
+
+.navBtn:hover {
+    color: rgb(255, 236, 222);
+    cursor: pointer;
+}
